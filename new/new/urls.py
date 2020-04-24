@@ -12,6 +12,8 @@ app_name = "account"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register', registration_view, name='register'),
+    path('register/<int:pk>', views.user_detail),
+
     path('login', obtain_auth_token, name='login'),
 
     path('reset_password/', auth_views.PasswordResetView.as_view(), name='reset_password'),
