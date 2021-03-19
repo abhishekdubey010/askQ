@@ -9,7 +9,7 @@ contextlib2==0.6.0.post1
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
-Django==1.11.29
+Django==3.1.6
 django-rest-auth==0.9.5
 djangorestframework==3.9.4
 entrypoints==0.3
